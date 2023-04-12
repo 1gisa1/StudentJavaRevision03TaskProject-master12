@@ -33,7 +33,7 @@ public class Task06 {
         int dx = Math.abs(x1 - x2);
         int dy = Math.abs(y1 - y2);
 
-        return (x1 < 1 || x1 > 8 || y1 < 1 || y1 > 8 || x2 < 1 || x2 > 8 || y2 < 1 || y2 > 8 || dx == dy)
-                ? false : dx <= 2 && dx >= 1 && dy <= 2 && dy >= 1;
+        return x1 >= 1 && x1 <= 8 && y1 >= 1 && y1 <= 8 && x2 >= 1 && x2 <= 8 && y2 >= 1 && y2 <= 8 && dx != dy
+                && dx <= 2 && dx >= 1 && dy <= 2 && dy >= 1;
     }
 }

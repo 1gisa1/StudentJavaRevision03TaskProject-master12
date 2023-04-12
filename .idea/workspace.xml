@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3412f98a-e8ad-41a8-b839-f5f10d6b8caf" name="Changes" comment="" />
+    <list default="true" id="3412f98a-e8ad-41a8-b839-f5f10d6b8caf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task07.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

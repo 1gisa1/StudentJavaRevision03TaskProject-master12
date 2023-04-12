@@ -30,8 +30,9 @@ public class Task07 {
         int dx = Math.abs(x1 - x2);
         int dy = Math.abs(y1 - y2);
 
-        return (x1 < 1 || x1 > 8 || y1 < 1 || y1 > 8 || x2 < 1 || x2 > 8 || y2 < 1 || y2 > 8 || x1 == x2 && y1 == y2)
-                ? false : (dx == dy) || (dx <= 5 && dy == 0) || (dx == 0 && dy <= 4);
+        return x1 >= 1 && x1 <= 8 && y1 >= 1 && y1 <= 8 && x2 >= 1 && x2 <= 8
+                && y2 >= 1 && y2 <= 8 && (x1 != x2 || y1 != y2) && ((dx == dy)
+                || (dx <= 5 && dy == 0) || (dx == 0 && dy <= 4));
 
 
     }
